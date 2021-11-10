@@ -1,0 +1,177 @@
+{
+	"compiler": {
+		"version": "0.7.0+commit.9e61f92b"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "DATASTORE_CONTRACT",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "NFT_CONTRACT",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "NFTId",
+						"type": "uint256"
+					}
+				],
+				"name": "getIPFSHashOfNFTId",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "ipfsHash",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "NFTId",
+						"type": "uint256"
+					}
+				],
+				"name": "getTraitsOfNFTId",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "character",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "NFT",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "eyeColor",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "skinColor",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "item",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "maxNFTSupply",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "startingIndexFromNFTContract",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"polkadot-integrated-smart-contract-site-21073871-cpp/NFTRegistry.sol": "NFTRegistry"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"polkadot-integrated-smart-contract-site-21073871-cpp/INFTMetadataStore.sol": {
+			"keccak256": "0x7886ad774da3445c5e1d02f8c25e4879435744512999b2310a1820f7ded32d5f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://110a0bff305e46dd2e7e3d8480520db61feb4e3cfe30d33c9f858f15557ccc0a",
+				"dweb:/ipfs/QmWPm5RKTsj3mRS9yS1PEPC5hmyzy9q9T9rQXRdz4WRwKz"
+			]
+		},
+		"polkadot-integrated-smart-contract-site-21073871-cpp/INFTMinimalForRegistry.sol": {
+			"keccak256": "0x1a08291624dd0625634e6017ac7e781557d6ba960cf3d9fa53159cb70dbffd7b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f9bbcefa3e8ac21168b1afdc39b83eb95b4d9cccfd5a79bbb5c7abd342dcce77",
+				"dweb:/ipfs/QmWjAShPN5s6bTkryhQJAzU4e5hWVuFC4yaHQFjihtXSCo"
+			]
+		},
+		"polkadot-integrated-smart-contract-site-21073871-cpp/NFTRegistry.sol": {
+			"keccak256": "0xf26141fe2fc6ee48d1d29e30e4913e343e40f47a4c3eb5f14b01708ef2b8e939",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9fbdd3c1661a739f19244ef23589d5d082d856dcad66d221e1727c0d545e0e30",
+				"dweb:/ipfs/QmbV4rv139cGPCepbHeiJqSpiFBkN611SrTAnLzauAeRR5"
+			]
+		}
+	},
+	"version": 1
+}
